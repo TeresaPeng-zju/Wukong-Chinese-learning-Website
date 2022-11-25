@@ -1,0 +1,336 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+.topbar {
+  position: fixed !important;
+  background: #ff5353;
+  height: 80px;
+  width: 100%;
+  z-index: 3000;
+  box-shadow: 0 2px 10px rgba(130, 23, 22, 0.1);
+}
+.topbar .container {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 0 60px;
+  width: 100%;
+  min-width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 80px;
+  text-align: center;
+}
+.topbar .container .logo {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  position: relative;
+}
+.topbar .container .content {
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  flex: 1 1 auto;
+  height: 100%;
+  justify-content: center;
+}
+.topbar .container .content .nav {
+  z-index: 1000;
+  position: relative;
+  display: flex;
+}
+.topbar .container .content .nav .nav_item {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 16px;
+  color: #fff;
+  transition: background-color 0.3s;
+  letter-spacing: 0.06em;
+}
+.topbar .container .content .nav .nav_item .style_container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topbar .container .content .nav .nav_item .style_container .style_text {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 17px;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  word-break: keep-all;
+}
+.topbar .container .nav_right {
+  position: relative;
+  height: 100%;
+  display: flex;
+}
+.topbar .container .nav_right .language_box {
+  color: #fff;
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.topbar .container .nav_right .language_box .language_text_box {
+  width: 127px;
+  height: 29px;
+  left: 1435px;
+  top: 30px;
+  background: url(../languageBg.svg) 12px 50%/18px no-repeat;
+  border-radius: 100px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+.topbar .container .nav_right .language_box .language_text_box .language_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  margin-left: 10px;
+  color: #fff;
+  font-family: sans-serif;
+}
+.topbar .container .nav_right .language_box .language_text_box .language_text::after {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 36px;
+  right: 8px;
+  content: "";
+  border-top: 4px solid #fff;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  transition: all 0.3s;
+}
+.topbar .container .nav_right .student_center {
+  margin-left: 8px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topbar .container .nav_right .student_center .link {
+  display: inline-block;
+  text-indent: -8px;
+  width: 118px;
+  height: 29px;
+  font-family: sans-serif;
+  box-shadow: 0 1px 3px rgba(223, 31, 31, 0.25);
+  border-radius: 100px;
+  color: #ff5353;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  background: #fff url(../arrow-standard.svg) 94%/12px no-repeat;
+  padding: 7px 0 7px;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+  max-width: 1920px;
+  margin: 0 auto;
+  background: #fff;
+  min-width: 1280px;
+}
+.wrapper .content {
+  flex: 1 0 auto;
+  margin-top: 80px;
+}
+.wrapper .content .container_introduction {
+  height: 987px;
+  position: relative;
+}
+.wrapper .content .container_introduction .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  bottom: 0;
+  user-select: none;
+  pointer-events: none;
+  background: #ff5353;
+}
+.wrapper .content .container_introduction .background .span {
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.wrapper .content .container_introduction .background .text_edu {
+  left: 38.7%;
+  top: 263px;
+  font-size: 150px;
+  line-height: 220px;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.3);
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+}
+.wrapper .content .container_introduction .background .text_cation {
+  right: 8.9%;
+  top: 400px;
+  font-size: 100px;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.3);
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+}
+.wrapper .content .container_introduction .title_container {
+  width: 1310px;
+  padding-top: 174px;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+}
+.wrapper .content .container_introduction .title_container .style_harvard {
+  width: 180px;
+  height: 132px;
+  border-radius: 0 0 20px 20px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 3;
+  background: #fff;
+}
+.wrapper .content .container_introduction .title_container .style_harvard .style_harvard_img {
+  width: 164px;
+  height: 76px;
+  margin: auto;
+}
+.wrapper .content .container_introduction .title_container .style_harvard .style_harvard_text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  color: #a5403e;
+  white-space: pre-line;
+}
+.wrapper .content .container_introduction .title_container .style_harvard::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(255, 69, 70, 0.5), hsla(0, 100%, 95%, 0));
+  top: 0;
+}
+.wrapper .content .container_introduction .title_container .title_group {
+  position: relative;
+  display: inline-block;
+  font-family: FZLanTYJW, sans-serif;
+}
+.wrapper .content .container_introduction .title_container .title_group .style_title {
+  font-size: 50px;
+  line-height: 58px;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  white-space: pre-line;
+}
+.wrapper .content .container_introduction .title_container .title_group .style_yearsold {
+  width: 133px;
+  height: 68px;
+  font-size: 32px;
+  line-height: 56px;
+  top: -26px;
+  right: 40px;
+  padding: 0 0 0 11px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-left: 24px;
+  color: #f66;
+  background: url(../popup-arrow-pc.svg) 0 0 / cover no-repeat;
+  position: absolute;
+  letter-spacing: -0.01em;
+  transform: translateX(100%);
+}
+.wrapper .content .container_introduction .title_container .style_subtitle {
+  font-size: 32px;
+  line-height: 45px;
+  padding-top: 36px;
+  color: #fff;
+  letter-spacing: 0.08em;
+  font-weight: bold;
+}
+.wrapper .content .container_introduction .title_container .style_subtitle .style_double-arrow {
+  padding-top: 10px;
+  width: 25px;
+  height: 35px;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+  fill: none;
+  overflow: hidden;
+  box-sizing: none;
+}
+.wrapper .content .container_introduction .title_container .style_button {
+  padding-top: 42px;
+}
+.wrapper .content .container_introduction .title_container .style_button .style_blue-button {
+  font-size: 22px;
+  padding: 10px 35px;
+  letter-spacing: 0.3em;
+  word-break: keep-all;
+  white-space: nowrap;
+  color: #fff;
+  background: #009cff;
+  border-radius: 50px;
+  border: none;
+  line-height: 1.4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  outline: none;
+}
+.wrapper .content .container_introduction .title_container .style_button .parellex_outer {
+  width: 864px;
+  height: 522px px;
+  left: -124px;
+  bottom: -570px;
+  position: absolute;
+  z-index: 1;
+}
+/*# sourceMappingURL=./global.css.map */
