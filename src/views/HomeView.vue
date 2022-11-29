@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="content">
-      <section class="container_introduction">
+      <section class="container_introduction-one">
         <div class="background">
           <span>
             <img
@@ -124,15 +124,267 @@
             </svg>
           </h3>
           <div class="style_button">
-            <a href="#"
+            <a href="/appointment"
               ><button class="style_blue-button" type="button">
                 立即试听
               </button></a
             >
           </div>
           <div class="parallex_outer">
-            <div class="parallex_inner"></div>
+            <!-- inner的style没有写死，是随着屏幕大小动 -->
+            <div class="parallax-inner">
+              <span
+                style="
+                  box-sizing: border-box;
+                  display: block;
+                  overflow: hidden;
+                  width: initial;
+                  height: initial;
+                  background: none;
+                  opacity: 1;
+                  border: 0;
+                  margin: 0;
+                  padding: 0;
+                  position: relative;
+                "
+                ><span
+                  style="
+                    box-sizing: border-box;
+                    display: block;
+                    width: initial;
+                    height: initial;
+                    background: none;
+                    opacity: 1;
+                    border: 0;
+                    margin: 0;
+                    padding: 0;
+                    padding-top: 60.30534351145038%;
+                  "
+                ></span
+                ><img
+                  alt="悟空中文认识笔画：横折钩"
+                  src="../assets/banner-pc.webp"
+                  decoding="async"
+                  data-nimg="responsive"
+                  style="
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    box-sizing: border-box;
+                    padding: 0;
+                    border: none;
+                    margin: auto;
+                    display: block;
+                    width: 0;
+                    height: 0;
+                    min-width: 100%;
+                    max-width: 100%;
+                    min-height: 100%;
+                    max-height: 100%;
+                  "
+                  sizes="100vw"
+                  srcset="
+                    ../assets/banner-pc.webp  640w,
+                    ../assets/banner-pc.webp  750w,
+                    ../assets/banner-pc.webp  828w,
+                    ../assets/banner-pc.webp 1080w,
+                    ../assets/banner-pc.webp 1200w,
+                    ../assets/banner-pc.webp 1920w,
+                    ../assets/banner-pc.webp 2048w,
+                    ../assets/banner-pc.webp 3840w
+                  " /><noscript
+                  ><img
+                    alt="悟空中文认识笔画：横折钩"
+                    sizes="100vw"
+                    src="../assets/banner-pc.webp"
+                    decoding="async"
+                    data-nimg="responsive"
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      bottom: 0;
+                      right: 0;
+                      box-sizing: border-box;
+                      padding: 0;
+                      border: none;
+                      margin: auto;
+                      display: block;
+                      width: 0;
+                      height: 0;
+                      min-width: 100%;
+                      max-width: 100%;
+                      min-height: 100%;
+                      max-height: 100%;
+                    "
+                    loading="lazy" /></noscript
+              ></span>
+            </div>
           </div>
+        </div>
+        <div class="parallex_outer style_pic">
+          <div class="parellex_inner">
+            <!-- style没有写死 -->
+            <div class="parallex_outer style_ip">
+              <div class="parellex_inner">
+                <!-- style没有写死 --><span
+                  style="
+                    box-sizing: border-box;
+                    display: block;
+                    overflow: hidden;
+                    width: initial;
+                    height: initial;
+                    background: none;
+                    opacity: 1;
+                    border: 0;
+                    margin: 0;
+                    padding: 0;
+                    position: relative;
+                  "
+                  ><span
+                    style="
+                      box-sizing: border-box;
+                      display: block;
+                      width: initial;
+                      height: initial;
+                      background: none;
+                      opacity: 1;
+                      border: 0;
+                      margin: 0;
+                      padding: 0;
+                      padding-top: 120.42440318302387%;
+                    "
+                  ></span
+                  ><img
+                    alt="悟空中文的悟空"
+                    src="../assets/banner-ip.webp"
+                    decoding="async"
+                    data-nimg="responsive"
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      bottom: 0;
+                      right: 0;
+                      box-sizing: border-box;
+                      padding: 0;
+                      border: none;
+                      margin: auto;
+                      display: block;
+                      width: 0;
+                      height: 0;
+                      min-width: 100%;
+                      max-width: 100%;
+                      min-height: 100%;
+                      max-height: 100%;
+                    "
+                    sizes="100vw" /><noscript
+                    ><img
+                      alt="悟空中文的悟空"
+                      sizes="100vw"
+                      decoding="async"
+                      data-nimg="responsive"
+                      style="
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        bottom: 0;
+                        right: 0;
+                        box-sizing: border-box;
+                        padding: 0;
+                        border: none;
+                        margin: auto;
+                        display: block;
+                        width: 0;
+                        height: 0;
+                        min-width: 100%;
+                        max-width: 100%;
+                        min-height: 100%;
+                        max-height: 100%;
+                      "
+                      loading="lazy" /></noscript
+                ></span>
+              </div>
+            </div>
+            <span
+              style="
+                box-sizing: border-box;
+                display: block;
+                overflow: hidden;
+                width: initial;
+                height: initial;
+                background: none;
+                opacity: 1;
+                border: 0;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+              "
+              ><img
+                alt="悟空中文形象"
+                src="../assets/banner-main.webp"
+                decoding="async"
+                data-nimg="fill"
+                style="
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  bottom: 0;
+                  right: 0;
+                  box-sizing: border-box;
+                  padding: 0;
+                  border: none;
+                  margin: auto;
+                  display: block;
+                  width: 0;
+                  height: 0;
+                  min-width: 100%;
+                  max-width: 100%;
+                  min-height: 100%;
+                  max-height: 100%;
+                  object-fit: cover;
+                  object-position: top right;
+                "
+                sizes="100vw" /><noscript
+                ><img
+                  alt="悟空中文形象"
+                  sizes="100vw"
+                  decoding="async"
+                  data-nimg="fill"
+                  style="
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    box-sizing: border-box;
+                    padding: 0;
+                    border: none;
+                    margin: auto;
+                    display: block;
+                    width: 0;
+                    height: 0;
+                    min-width: 100%;
+                    max-width: 100%;
+                    min-height: 100%;
+                    max-height: 100%;
+                    object-fit: cover;
+                    object-position: top right;
+                  "
+                  loading="lazy" /></noscript
+            ></span>
+          </div>
+        </div>
+      </section>
+      <section class="container_introduction-two">
+        <div class="style_content">
+          <div class="style_title-container"></div>
         </div>
       </section>
     </div>
