@@ -384,7 +384,162 @@
       </section>
       <section class="container_introduction-two">
         <div class="style_content">
-          <div class="style_title-container"></div>
+          <div class="style_title-container">
+            <div class="css-slogan">
+              <h2 class="style-title">
+                全面满足海外少儿学习需求<br />显著提高孩子学习成效
+              </h2>
+            </div>
+            <div class="css-description">
+              <p class="style_desc">
+                悟空拥有科学的教学体系、丰富多样的定制课程、以学员为本的教育理念，辅以智能在线学习平台，能够有效提高孩子的学习成效。
+              </p>
+            </div>
+            <div class="css-left-pic">
+              <div class="style_img-container">
+                <span
+                  style="
+                    box-sizing: border-box;
+                    display: block;
+                    overflow: hidden;
+                    width: initial;
+                    height: initial;
+                    background: none;
+                    opacity: 1;
+                    border: 0;
+                    margin: 0;
+                    padding: 0;
+                    position: relative;
+                  "
+                  ><span
+                    style="
+                      box-sizing: border-box;
+                      display: block;
+                      width: initial;
+                      height: initial;
+                      background: none;
+                      opacity: 1;
+                      border: 0;
+                      margin: 0;
+                      padding: 0;
+                      padding-top: 77.11213517665131%;
+                    "
+                  ></span
+                  ><img
+                    alt=""
+                    src="../assets/advantage-line.webp"
+                    decoding="async"
+                    data-nimg="responsive"
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      bottom: 0;
+                      right: 0;
+                      box-sizing: border-box;
+                      padding: 0;
+                      border: none;
+                      margin: auto;
+                      display: block;
+                      width: 0;
+                      height: 0;
+                      min-width: 100%;
+                      max-width: 100%;
+                      min-height: 100%;
+                      max-height: 100%;
+                    "
+                    sizes="100vw"
+                /></span>
+              </div>
+            </div>
+          </div>
+          <div class="style_cards">
+            <div class="css-right-pic">
+              <div class="swiper-container-pointer-events swiper-container">
+                <div class="swiper-pagination">
+                  <span class="swiper-pagination-bullet"></span
+                  ><span
+                    class="
+                      swiper-pagination-bullet swiper-pagination-bullet-active
+                    "
+                  ></span
+                  ><span class="swiper-pagination-bullet"></span>
+                </div>
+                <div
+                  class="swiper-wrapper"
+                  style="
+                    transition-duration: 0ms;
+                    transform: translate3d(-1300px, 0px, 0px);
+                  "
+                >
+                  <div
+                    class="
+                      swiper-slide
+                      swiper-slide-duplicate
+                      swiper-slide-duplicate-prev
+                    "
+                    data-swiper-slide-index="0"
+                    style="width: 433.333px"
+                  >
+                    <div class="style_box">
+                      <dl class="style_container">
+                        <dt class="style_pic">
+                          <span
+                            style="
+                              box-sizing: border-box;
+                              display: block;
+                              overflow: hidden;
+                              width: initial;
+                              height: initial;
+                              background: none;
+                              opacity: 1;
+                              border: 0px;
+                              margin: 0px;
+                              padding: 0px;
+                              position: relative;
+                            "
+                            ><span
+                              style="
+                                box-sizing: border-box;
+                                display: block;
+                                width: initial;
+                                height: initial;
+                                background: none;
+                                opacity: 1;
+                                border: 0px;
+                                margin: 0px;
+                                padding: 82.9327% 0px 0px;
+                              "
+                            ></span
+                            ><img
+                              alt="悟空中文以学员为本的教育理念"
+                              src="../assets/download.gif"
+                              decoding="async"
+                              data-nimg="responsive"
+                              style="
+                                position: absolute;
+                                inset: 0px;
+                                box-sizing: border-box;
+                                padding: 0px;
+                                border: none;
+                                margin: auto;
+                                display: block;
+                                width: 0px;
+                                height: 0px;
+                                min-width: 100%;
+                                max-width: 100%;
+                                min-height: 100%;
+                                max-height: 100%;
+                              " /><noscript></noscript
+                          ></span>
+                        </dt>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>

@@ -64,8 +64,10 @@
                         border: 0px;
                         margin: 0px;
                         padding: 0px;
-                      " /></span
-                  ><img
+                      "
+                  /></span>
+                  <!-- 发现以下代码会报错，先注释了 -->
+                  <!-- <img
                     alt="arrow"
                     src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Farrow.5afc1922.svg&amp;w=32&amp;q=75"
                     decoding="async"
@@ -88,7 +90,8 @@
                     srcset="
                       /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Farrow.5afc1922.svg&amp;w=16&amp;q=75 1x,
                       /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Farrow.5afc1922.svg&amp;w=32&amp;q=75 2x
-                    " /><noscript></noscript
+                    " /> -->
+                  <noscript></noscript
                 ></span>
               </div>
               <ul class="style_option"></ul>
