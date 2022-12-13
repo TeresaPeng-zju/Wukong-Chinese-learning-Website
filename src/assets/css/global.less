@@ -407,7 +407,6 @@
       background: #f8fcff;
 
       .style_content {
-        width: 1280px;
         margin-left: auto;
 
         .style_title-container {
@@ -446,111 +445,6 @@
             }
           }
 
-          .style_cards {
-            position: absolute;
-            top: 120px;
-            right: -260px;
-            width: 1140px;
-            --swiper-theme-color: #ff5353;
-
-            .css-right-pic {
-              animation-duration: 1000ms;
-              animation-timing-function: ease;
-              animation-delay: 0ms;
-              animation-name: animation-580wcl;
-              animation-direction: normal;
-              animation-fill-mode: both;
-              animation-iteration-count: 1;
-
-              .swiper-container-pointer-events {
-                touch-action: pan-y;
-              }
-
-              .swiper-container {
-                margin-left: auto;
-                margin-right: auto;
-                position: relative;
-                overflow: hidden;
-                list-style: none;
-                padding: 0;
-                z-index: 1;
-
-                .swiper-pagination {
-                  bottom: 10px;
-                  left: 0;
-                  width: 100%;
-                  position: absolute;
-                  text-align: center;
-                  transition: opacity .3s;
-                  transform: translateZ(0);
-                  z-index: 10;
-
-                  .swiper-pagination-bullet {
-                    margin: 0 20px;
-                    width: 18px;
-                    height: 18px;
-                    cursor: pointer;
-                    display: inline-block;
-                    border-radius: 50%;
-                    background: #000;
-                    opacity: .2;
-                  }
-
-                  .swiper-pagination-bullet-active {
-                    opacity: 1;
-                    background: var(--swiper-pagination-color, var(--swiper-theme-color));
-                  }
-                }
-
-                .swiper-wrapper {
-                  position: relative;
-                  width: 100%;
-                  height: 100%;
-                  z-index: 1;
-                  display: flex;
-                  transition-property: transform;
-                  box-sizing: content-box;
-
-                  .swiper-slide {
-                    flex-shrink: 0;
-                    width: 100%;
-                    height: 100%;
-                    position: relative;
-                    transition-property: transform;
-
-                    .style_box {
-                      cursor: pointer;
-                      padding-bottom: 86px;
-                      padding: 20px 8px;
-                      display: flex;
-                      justify-content: center;
-                      align-items: center;
-                      width: 370px;
-                      height: 521.7px;
-
-                      .style_container {
-                        position: relative;
-                        overflow: hidden;
-                        transition: all .3s;
-                        box-shadow: 0 6px 10px rgb(0 0 0 / 10%);
-                        border-radius: 10px;
-
-                        .style_pic {
-                          box-shadow: 0 6px 10px rgb(0 0 0 / 10%);
-                          border-radius: 10px 10px 0 0;
-                          overflow: hidden;
-                          transition: all .3s;
-                          width: 325.6px;
-                          height: 260.48px;
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-
           .css-description {
             animation-duration: 1000ms;
             animation-timing-function: ease;
@@ -583,10 +477,174 @@
             }
           }
         }
+
+        .style_cards {
+          position: absolute;
+          top: 120px;
+          right: -260px;
+          width: 1140px;
+          --swiper-theme-color: #ff5353;
+
+          .css-right-pic {
+            animation-duration: 1000ms;
+            animation-timing-function: ease;
+            animation-delay: 0ms;
+            animation-name: animation-580wcl;
+            animation-direction: normal;
+            animation-fill-mode: both;
+            animation-iteration-count: 1;
+
+            .swiper-container-pointer-events {
+              touch-action: pan-y;
+            }
+
+            .swiper-container {
+              margin-left: auto;
+              margin-right: auto;
+              position: relative;
+              overflow: hidden;
+              list-style: none;
+              padding: 0;
+              z-index: 1;
+
+
+              .swiper-wrapper {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                display: flex;
+                transition-property: transform;
+                box-sizing: content-box;
+              }
+
+              .swiper-slide {
+                flex-shrink: 0;
+                width: 380px;
+                height: 100%;
+                position: relative;
+                transition-property: transform;
+
+                .style-box {
+                  padding: 20px 8px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  width: 370px;
+                  height: 521.7px px;
+
+                  .style-container {
+                    position: relative;
+                    overflow: hidden;
+                    transition: all .3s;
+                    box-shadow: 0 6px 10px rgb(0 0 0 / 10%);
+                    border-radius: 10px;
+
+                    .style-picture {
+                      width: 370px;
+                      height: 296px;
+                      box-shadow: 0 6px 10px rgb(0 0 0 / 10%);
+                      border-radius: 10px 10px 0 0;
+                      overflow: hidden;
+                      transition: all .3s;
+
+                      img {
+                        width: auto;
+                        height: auto;
+                        max-width: 100%;
+                        max-height: 100%;
+
+                      }
+                    }
+
+                    .style-content {
+                      position: relative;
+                      box-sizing: border-box;
+                      padding: 17px 27px 0;
+                      border-radius: 0 0 10px 10px;
+                      transition: all .3s;
+                      width: 325.6px;
+                      height: 190.1504px;
+
+                      .style_title__voiUX {
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 35px;
+                        padding-bottom: 15px;
+                        border-bottom: 1px solid #fff;
+                        transition: all .3s;
+                      }
+
+                      .style_list__2Np8L {
+                        padding-top: 6px;
+                        font-size: 18px;
+                        line-height: 28px;
+                        padding-left: 20px;
+                        list-style: disc;
+                        transition: all .3s;
+                        font-weight: 300;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .container_introduction-three {
+      position: relative;
+
+      .Chinese-circle {
+        position: absolute;
+        right: 0;
+        top: -117px;
+        width: 303px;
+        height: 341px;
+        background: url(../project-circle.svg);
+      }
+
+      .circle-animation {
+        animation-duration: 1000ms;
+        animation-timing-function: ease;
+        animation-delay: 0ms;
+        animation-name: animation-1wmrf3h;
+        animation-direction: normal;
+        animation-fill-mode: both;
+        animation-iteration-count: 1;
+      }
+
+      .style-overflow {
+        overflow: hidden;
+
+        .style-container-one {
+          position: relative;
+          overflow: hidden;
+          height: 680px;
+
+          .style-bg {
+            position: absolute;
+            width: 85%;
+            height: 680px;
+          }
+
+          .style-bg-animation {
+            animation-duration: 1000ms;
+            animation-timing-function: ease;
+            animation-delay: 300ms;
+            animation-name: animation-1rg2aqu;
+            animation-direction: normal;
+            animation-fill-mode: both;
+            animation-iteration-count: 1;
+          }
+        }
       }
     }
   }
 }
+
 
 //以下是响应式布局
 @media (min-width: 1600px) {
@@ -626,20 +684,6 @@
     .style_cards {
       right: -200px;
       width: 1300px;
-
-      .style_box {
-        padding: 20px 8px;
-        width: 416px;
-        height: 586px;
-
-        .style_container {
-
-          .style_pic {
-            width: 366.08px;
-            height: 302px;
-          }
-        }
-      }
     }
   }
 
@@ -654,15 +698,6 @@
 
   .style_menuContainer {
     display: none;
-  }
-
-  .content {
-    // box-sizing: border-box;
-    // display: flex;
-    // position: relative;
-    // flex: 1 1 auto;
-    // height: 100%;
-    // justify-content: center;
   }
 
   .nav_item {

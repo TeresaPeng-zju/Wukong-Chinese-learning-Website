@@ -456,34 +456,165 @@
           <div class="style_cards">
             <div class="css-right-pic">
               <div class="swiper-container-pointer-events swiper-container">
-                <div class="swiper-pagination">
-                  <span class="swiper-pagination-bullet"></span
-                  ><span
-                    class="
-                      swiper-pagination-bullet swiper-pagination-bullet-active
-                    "
-                  ></span
-                  ><span class="swiper-pagination-bullet"></span>
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="style-box">
+                        <dl class="style-container">
+                          <dt class="style-picture">
+                            <span
+                              style="
+                                box-sizing: border-box;
+                                display: block;
+                                overflow: hidden;
+                                width: initial;
+                                height: initial;
+                                background: none;
+                                opacity: 1;
+                                border: 0px;
+                                margin: 0px;
+                                padding: 0px;
+                                position: relative;
+                              "
+                              ><span
+                                style="
+                                  box-sizing: border-box;
+                                  width: initial;
+                                  height: initial;
+                                  background: none;
+                                  opacity: 1;
+                                  border: 0px;
+                                  margin: 0px;
+                                  padding: 82.9327% 0px 0px;
+                                "
+                              ></span
+                              ><img
+                                src="../assets/advantage-custom.webp"
+                                alt=""
+                            /></span>
+                          </dt>
+                          <dd class="style-content">
+                            <h3 class="style_title__voiUX">
+                              以学员为本的教育理念
+                            </h3>
+                            <ul class="style_list__2Np8L">
+                              <li>4对1跟踪服务，为每位学员定制专属学习计划</li>
+                              <li>
+                                注重趣味与拓展训练，深度匹配海外孩子学习特点
+                              </li>
+                            </ul>
+                          </dd>
+                        </dl>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="style-box">
+                        <dl class="style-container">
+                          <dt class="style-picture">
+                            <span
+                              style="
+                                box-sizing: border-box;
+                                display: block;
+                                overflow: hidden;
+                                width: initial;
+                                height: initial;
+                                background: none;
+                                opacity: 1;
+                                border: 0px;
+                                margin: 0px;
+                                padding: 0px;
+                                position: relative;
+                              "
+                              ><span
+                                style="
+                                  box-sizing: border-box;
+                                  width: initial;
+                                  height: initial;
+                                  background: none;
+                                  opacity: 1;
+                                  border: 0px;
+                                  margin: 0px;
+                                  padding: 82.9327% 0px 0px;
+                                "
+                              ></span
+                              ><img
+                                src="../assets/advantage-people.webp"
+                                alt=""
+                            /></span>
+                          </dt>
+                          <dd class="style-content">
+                            <h3 class="style_title__voiUX">
+                              以学员为本的教育理念
+                            </h3>
+                            <ul class="style_list__2Np8L">
+                              <li>4对1跟踪服务，为每位学员定制专属学习计划</li>
+                              <li>
+                                注重趣味与拓展训练，深度匹配海外孩子学习特点
+                              </li>
+                            </ul>
+                          </dd>
+                        </dl>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="style-box">
+                        <dl class="style-container">
+                          <dt class="style-picture">
+                            <span
+                              style="
+                                box-sizing: border-box;
+                                display: block;
+                                overflow: hidden;
+                                width: initial;
+                                height: initial;
+                                background: none;
+                                opacity: 1;
+                                border: 0px;
+                                margin: 0px;
+                                padding: 0px;
+                                position: relative;
+                              "
+                              ><span
+                                style="
+                                  box-sizing: border-box;
+                                  width: initial;
+                                  height: initial;
+                                  background: none;
+                                  opacity: 1;
+                                  border: 0px;
+                                  margin: 0px;
+                                  padding: 82.9327% 0px 0px;
+                                "
+                              ></span
+                              ><img
+                                src="../assets/advantage-science.webp"
+                                alt=""
+                            /></span>
+                          </dt>
+                          <dd class="style-content">
+                            <h3 class="style_title__voiUX">
+                              以学员为本的教育理念
+                            </h3>
+                            <ul class="style_list__2Np8L">
+                              <li>4对1跟踪服务，为每位学员定制专属学习计划</li>
+                              <li>
+                                注重趣味与拓展训练，深度匹配海外孩子学习特点
+                              </li>
+                            </ul>
+                          </dd>
+                        </dl>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 如果需要分页器 -->
+                  <div class="swiper-pagination"></div>
                 </div>
-                <div
-                  class="swiper-wrapper"
-                  style="
-                    transition-duration: 0ms;
-                    transform: translate3d(-1300px, 0px, 0px);
-                  "
-                >
-                  <div
-                    class="
-                      swiper-slide
-                      swiper-slide-duplicate
-                      swiper-slide-duplicate-prev
-                    "
-                    data-swiper-slide-index="0"
-                    style="width: 433.333px"
-                  >
-                    <div class="style_box">
-                      <dl class="style_container">
-                        <dt class="style_pic">
+                <!-- swiper组件 -->
+                <!-- <swiper class="swiper-wrapper"> -->
+                <!-- <swiperSlide class="swiper-slide">
+                    <div class="style-box">
+                      <dl class="style-container">
+                        <dt class="style-picture">
                           <span
                             style="
                               box-sizing: border-box;
@@ -501,7 +632,6 @@
                             ><span
                               style="
                                 box-sizing: border-box;
-                                display: block;
                                 width: initial;
                                 height: initial;
                                 background: none;
@@ -511,34 +641,130 @@
                                 padding: 82.9327% 0px 0px;
                               "
                             ></span
-                            ><img
-                              alt="悟空中文以学员为本的教育理念"
-                              src="../assets/download.gif"
-                              decoding="async"
-                              data-nimg="responsive"
-                              style="
-                                position: absolute;
-                                inset: 0px;
-                                box-sizing: border-box;
-                                padding: 0px;
-                                border: none;
-                                margin: auto;
-                                display: block;
-                                width: 0px;
-                                height: 0px;
-                                min-width: 100%;
-                                max-width: 100%;
-                                min-height: 100%;
-                                max-height: 100%;
-                              " /><noscript></noscript
-                          ></span>
+                            ><img src="../assets/advantage-custom.webp" alt=""
+                          /></span>
                         </dt>
+                        <dd class="style-content">
+                          <h3 class="style_title__voiUX">
+                            以学员为本的教育理念
+                          </h3>
+                          <ul class="style_list__2Np8L">
+                            <li>4对1跟踪服务，为每位学员定制专属学习计划</li>
+                            <li>
+                              注重趣味与拓展训练，深度匹配海外孩子学习特点
+                            </li>
+                          </ul>
+                        </dd>
                       </dl>
                     </div>
-                  </div>
-                </div>
+                  </swiperSlide> -->
+                <!-- <swiperSlide class="swiper-slide">
+                    <div class="style-box">
+                      <dl class="style-container">
+                        <dt class="style-picture">
+                          <span
+                            style="
+                              box-sizing: border-box;
+                              display: block;
+                              overflow: hidden;
+                              width: initial;
+                              height: initial;
+                              background: none;
+                              opacity: 1;
+                              border: 0px;
+                              margin: 0px;
+                              padding: 0px;
+                              position: relative;
+                            "
+                            ><span
+                              style="
+                                box-sizing: border-box;
+                                width: initial;
+                                height: initial;
+                                background: none;
+                                opacity: 1;
+                                border: 0px;
+                                margin: 0px;
+                                padding: 82.9327% 0px 0px;
+                              "
+                            ></span
+                            ><img src="../assets/advantage-people.webp" alt=""
+                          /></span>
+                        </dt>
+                        <dd class="style-content">
+                          <h3 class="style_title__voiUX">
+                            以学员为本的教育理念
+                          </h3>
+                          <ul class="style_list__2Np8L">
+                            <li>4对1跟踪服务，为每位学员定制专属学习计划</li>
+                            <li>
+                              注重趣味与拓展训练，深度匹配海外孩子学习特点
+                            </li>
+                          </ul>
+                        </dd>
+                      </dl>
+                    </div>
+                  </swiperSlide> -->
+                <!-- <swiperSlide class="swiper-slide">
+                    <div class="style-box">
+                      <dl class="style-container">
+                        <dt class="style-picture">
+                          <span
+                            style="
+                              box-sizing: border-box;
+                              display: block;
+                              overflow: hidden;
+                              width: initial;
+                              height: initial;
+                              background: none;
+                              opacity: 1;
+                              border: 0px;
+                              margin: 0px;
+                              padding: 0px;
+                              position: relative;
+                            "
+                            ><span
+                              style="
+                                box-sizing: border-box;
+                                width: initial;
+                                height: initial;
+                                background: none;
+                                opacity: 1;
+                                border: 0px;
+                                margin: 0px;
+                                padding: 82.9327% 0px 0px;
+                              "
+                            ></span
+                            ><img src="../assets/advantage-science.webp" alt=""
+                          /></span>
+                        </dt>
+                        <dd class="style-content">
+                          <h3 class="style_title__voiUX">
+                            以学员为本的教育理念
+                          </h3>
+                          <ul class="style_list__2Np8L">
+                            <li>4对1跟踪服务，为每位学员定制专属学习计划</li>
+                            <li>
+                              注重趣味与拓展训练，深度匹配海外孩子学习特点
+                            </li>
+                          </ul>
+                        </dd>
+                      </dl>
+                    </div>
+                  </swiperSlide> -->
+                <!-- </swiper> -->
+                <!-- 分页器 -->
+                <!-- <div class="swiper-pagination"></div> -->
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section class="container_introduction-three">
+        <div class="Chinese-circle circle-animation"></div>
+        <div class="style-overflow">
+          <div class="style-container-one">
+            <div class="style-bg style-bg-animation"></div>
           </div>
         </div>
       </section>
@@ -547,12 +773,57 @@
 </template>
 
 <script>
+import Swiper from "swiper";
+//导入js
+import "swiper/css/swiper.min.css";
+//引入css
+// import { swiper, swiperSlide } from "vue-awesome-swiper"; //引入组件
+// import "../../node_modules/swiper/css/swiper.css"; //引入swiper样式
 export default {
+  name: "",
+  // components: {
+  //   // 局部注册组件
+  //   swiper,
+  //   swiperSlide,
+  // },
+  // mounted() {
+  //   new Swiper(".swiper-container", {
+  //     loop: true,
+  //     slidesPerView: 3,
+  //     centeredSlides: true,
+  //     centeredSlidesBounds: true,
+  //   });
+  // },
   data() {
-    return {};
+    return {
+      // imgs: [
+      //   { pic: require("../assets/") },
+      //   { pic: require("") },
+      //   { pic: require("") },
+      // ],
+    };
+  },
+  mounted() {
+    new Swiper(".swiper-container", {
+      loop: true, // 循环模式选项
+      slidesPerView: 3,
+      centeredSlides: true,
+      centeredSlidesBounds: true,
+      // 如果需要分页器
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
   },
 };
 </script>
+
+
+
  
 <style lang = "less" scoped>
-</style>
+.swiper-slide-active {
+  background: #ff6600;
+  color: #fff;
+}
+</styl>
