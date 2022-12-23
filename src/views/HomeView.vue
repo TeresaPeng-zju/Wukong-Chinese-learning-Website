@@ -764,7 +764,150 @@
         <div class="Chinese-circle circle-animation"></div>
         <div class="style-overflow">
           <div class="style-container-one">
-            <div class="style-bg style-bg-animation"></div>
+            <div class="style-bg style-bg-animation">
+              <span
+                style="
+                  box-sizing: border-box;
+                  display: block;
+                  overflow: hidden;
+                  width: initial;
+                  height: initial;
+                  background: none;
+                  opacity: 1;
+                  border: 0;
+                  margin: 0;
+                  padding: 0;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  bottom: 0;
+                  right: 0;
+                "
+              >
+                <img
+                  alt=""
+                  style="
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    box-sizing: border-box;
+                    padding: 0;
+                    border: none;
+                    margin: auto;
+                    display: block;
+                    width: 0;
+                    height: 0;
+                    min-width: 100%;
+                    max-width: 100%;
+                    min-height: 100%;
+                    max-height: 100%;
+                    object-fit: cover;
+                    object-position: right bottom;
+                  "
+                  src="../assets/project-chinese.webp"
+              /></span>
+            </div>
+            <div class="style-text_container">
+              <div class="style-text">
+                <div class="css-wkzwk">
+                  <div class="style-title">
+                    <h2>悟空中文课</h2>
+                    <span class="style-years-old">3-18岁</span>
+                  </div>
+                </div>
+                <div class="css-introduction">
+                  <p class="style-content">
+                    将课程划分为不同系列和等级，循序渐进地把孩子带入中文的海洋，辅以图文并茂的教学方式，让孩子逐步掌握汉语的“听说读写”。课程兼具知识性与趣味性，同时对标HSK、YCT等汉语水平考试和国际高考，高度匹配海外少儿的生活方式和文化背景。
+                  </p>
+                </div>
+                <div class="css-white-button">
+                  <div class="style-button-container">
+                    <a
+                      href="https://www.wukongsch.com/chinese/booking/reserve2?l=4c6907d7-2218-4ec8-87b3-62f063a8b3b0&amp;lang=zh-CN"
+                      target="_blank"
+                      rel="noreferrer"
+                      ><button class="style-button">悟空中文</button></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="style-preview">
+                <span
+                  style="
+                    box-sizing: border-box;
+                    display: block;
+                    overflow: hidden;
+                    width: initial;
+                    height: initial;
+                    background: none;
+                    opacity: 1;
+                    border: 0;
+                    margin: 0;
+                    padding: 0;
+                    position: relative;
+                  "
+                  ><span
+                    style="
+                      box-sizing: border-box;
+                      display: block;
+                      width: initial;
+                      height: initial;
+                      background: none;
+                      opacity: 1;
+                      border: 0;
+                      margin: 0;
+                      padding: 0;
+                      padding-top: 84.71810089020771%;
+                    "
+                  ></span
+                  ><img
+                    alt="悟空中文课"
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      bottom: 0;
+                      right: 0;
+                      box-sizing: border-box;
+                      padding: 0;
+                      border: none;
+                      margin: auto;
+                      display: block;
+                      width: 0;
+                      height: 0;
+                      min-width: 100%;
+                      max-width: 100%;
+                      min-height: 100%;
+                      max-height: 100%;
+                    "
+                    src="../assets/project-chinese-preview.webp"
+                  />
+                </span>
+              </div>
+            </div>
+            <div class="style-line">
+              <span
+                style="
+                  box-sizing: border-box;
+                  display: block;
+                  overflow: hidden;
+                  width: initial;
+                  height: initial;
+                  background: none;
+                  opacity: 1;
+                  border: 0;
+                  margin: 0;
+                  padding: 0;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  bottom: 0;
+                  right: 0;
+                "
+              ></span>
+            </div>
           </div>
         </div>
       </section>
