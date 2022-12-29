@@ -669,6 +669,126 @@
   width: 674px;
   height: 571px;
 }
+.wrapper .content .container_introduction-three .style-overflow .style-container-two {
+  position: relative;
+  top: -20px;
+  overflow: hidden;
+  height: 680px;
+}
+.wrapper .content .container_introduction-three .style-overflow .style-container-two .math-cookie {
+  display: none;
+}
+.wrapper .content .container_introduction-three .style-overflow .style-container-two .style-bg {
+  margin-left: auto;
+  right: 0;
+  position: absolute;
+  width: 85%;
+  height: 680px;
+}
+.wrapper .content .container_introduction-three .style-overflow .style-container-two .css-style-bg {
+  animation-duration: 1000ms;
+  animation-timing-function: ease;
+  animation-delay: 0ms;
+  animation-name: animation-9e64fq;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+.wrapper .content .container_introduction-three .style-overflow .style-container-two .style-text-container {
+  width: 1200px;
+  padding-left: 0;
+  position: relative;
+  box-sizing: border-box;
+  padding: 130px 40px 0;
+  margin: 0 auto;
+}
+.wrapper .content .container_introduction-three .style-overflow .style-container-two .style-text-container .style-text-internationalMath {
+  width: 440px;
+  margin-left: auto;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+.wrapper .content .container_introduction-three .style-overflow .style-container-two .style-text-container .style-text-internationalMath .css-title-internationalMath {
+  animation-duration: 1000ms;
+  animation-timing-function: ease;
+  animation-delay: 300ms;
+  animation-name: animation-9e64fq;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+.wrapper .content .container_introduction-three .style-overflow .style-container-two .style-text-container .style-text-internationalMath .css-title-internationalMath .style-title {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  font-size: 30px;
+  line-height: 48px;
+  font-weight: 600;
+}
+.wrapper .content .container_introduction-three .style-overflow .style-container-two .style-text-container .style-text-internationalMath .css-title-internationalMath .style-title .style-years-old {
+  color: #009cff;
+  position: relative;
+  font-size: 24px;
+  margin-left: 26px;
+  line-height: 30px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 7px 15px;
+  box-shadow: 0 2px 4px rgba(165, 24, 24, 0.25);
+}
+.wrapper .content .container_introduction-three .style-overflow .style-container-two .style-text-container .style-text-internationalMath .css-title-internationalMath .style-title .style-years-old::after {
+  content: " ";
+  position: absolute;
+  bottom: -13px;
+  left: -4px;
+  height: 27px;
+  width: 80px;
+  background: url(../popup-arrow-red.png) 0 100% / contain no-repeat;
+}
+.wrapper .content .container_introduction-three .style-overflow .style-container-two .style-text-container .css-content-intro {
+  animation-duration: 1000ms;
+  animation-timing-function: ease;
+  animation-delay: 400ms;
+  animation-name: animation-9e64fq;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+.wrapper .content .container_introduction-three .style-overflow .style-container-two .style-text-container .css-content-intro .style-content {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 300;
+  width: 380px;
+}
+.wrapper .content .container_introduction-three .style-overflow .style-container-two .style-text-container .css-button-mathClass {
+  animation-duration: 1000ms;
+  animation-timing-function: ease;
+  animation-delay: 500ms;
+  animation-name: animation-9e64fq;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+.wrapper .content .container_introduction-three .style-overflow .style-container-two .style-text-container .css-button-mathClass .style-button-container {
+  margin-top: 20px;
+  padding-left: 4px;
+  text-align: left;
+}
+.wrapper .content .container_introduction-three .style-overflow .style-container-two .style-text-container .css-button-mathClass .style-button-container .style-button {
+  color: #009cff;
+  background: #fff;
+  letter-spacing: 0.1em;
+  padding: 6px 17px;
+  font-size: 18px;
+  border-radius: 50px;
+  border: none;
+  line-height: 1.4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  outline: none;
+}
 @media (min-width: 1600px) {
   .container {
     box-sizing: border-box;
@@ -703,16 +823,24 @@
     right: -200px;
     width: 1300px;
   }
-  .container_introduction-three .style-text_container {
+  .container_introduction-three .style-container-one .style-text_container {
     width: 1510px;
     padding-top: 170px;
     padding-left: 130px;
   }
-  .container_introduction-three .style-text_container .style-content {
+  .container_introduction-three .style-container-one .style-text_container .style-content {
     width: 438px;
   }
-  .container_introduction-three .style-text_container .style-preview {
+  .container_introduction-three .style-container-one .style-text_container .style-preview {
     right: 80px;
+  }
+  .container_introduction-three .style-container-two .style-bg {
+    width: 78%;
+  }
+  .container_introduction-three .style-container-two .style-text-container {
+    padding-top: 180px;
+    padding-right: 220px;
+    width: 1400px;
   }
 }
 @media (min-width: 1259px) {

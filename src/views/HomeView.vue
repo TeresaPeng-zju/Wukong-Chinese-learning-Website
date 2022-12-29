@@ -909,6 +909,80 @@
               ></span>
             </div>
           </div>
+          <div class="style-container-two">
+            <!-- 先空着 -->
+            <div class="math-cookie"></div>
+            <div class="style-bg css-style-bg">
+              <span
+                style="
+                  box-sizing: border-box;
+                  display: block;
+                  overflow: hidden;
+                  width: initial;
+                  height: initial;
+                  background: none;
+                  opacity: 1;
+                  border: 0;
+                  margin: 0;
+                  padding: 0;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  bottom: 0;
+                  right: 0;
+                "
+                ><img
+                  alt=""
+                  style="
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    box-sizing: border-box;
+                    padding: 0;
+                    border: none;
+                    margin: auto;
+                    display: block;
+                    width: 0;
+                    height: 0;
+                    min-width: 100%;
+                    max-width: 100%;
+                    min-height: 100%;
+                    max-height: 100%;
+                    object-fit: cover;
+                    object-position: left bottom;
+                  "
+                  src="../assets/project-math.webp"
+              /></span>
+            </div>
+            <div class="style-text-container">
+              <div class="style-text-internationalMath">
+                <div class="css-title-internationalMath">
+                  <div class="style-title">
+                    <h2>悟空国际数学</h2>
+                    <span class="style-years-old">6-15岁</span>
+                  </div>
+                </div>
+                <div class="css-content-intro">
+                  <p class="style-content">
+                    从思维和逻辑培养出发，通过公式解析、题型总结，以授人以渔的方式解答数学问题。课程融合了新加坡的CPA数学教学法，让孩子更加科学系统地掌握代数、几何、统计学等数学知识。
+                  </p>
+                </div>
+                <div class="css-button-mathClass">
+                  <div class="style-button-container">
+                    <a
+                      href="https://wukongedu.net/wp/landing/1obhaJbr?l=d394641c-e375-4ce6-ac9e-3eeeece80848"
+                      target="_blank"
+                      rel="noreferrer"
+                      ><button class="style-button">数学课程</button></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="style-preview"></div>
+            </div>
+          </div>
         </div>
       </section>
     </div>

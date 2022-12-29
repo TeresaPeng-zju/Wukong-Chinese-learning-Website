@@ -756,6 +756,141 @@
             }
           }
         }
+
+        .style-container-two {
+          position: relative;
+          top: -20px;
+          overflow: hidden;
+          height: 680px;
+
+          .math-cookie {
+            display: none;
+          }
+
+          .style-bg {
+            margin-left: auto;
+            right: 0;
+            position: absolute;
+            width: 85%;
+            height: 680px;
+          }
+
+          .css-style-bg {
+            animation-duration: 1000ms;
+            animation-timing-function: ease;
+            animation-delay: 0ms;
+            animation-name: animation-9e64fq;
+            animation-direction: normal;
+            animation-fill-mode: both;
+            animation-iteration-count: 1
+          }
+
+          .style-text-container {
+            width: 1200px;
+            padding-left: 0;
+            position: relative;
+            box-sizing: border-box;
+            padding: 130px 40px 0;
+            margin: 0 auto;
+
+            .style-text-internationalMath {
+              width: 440px;
+              margin-left: auto;
+              position: relative;
+              z-index: 1;
+              color: #fff;
+
+              .css-title-internationalMath {
+                animation-duration: 1000ms;
+                animation-timing-function: ease;
+                animation-delay: 300ms;
+                animation-name: animation-9e64fq;
+                animation-direction: normal;
+                animation-fill-mode: both;
+                animation-iteration-count: 1;
+
+                .style-title {
+                  display: flex;
+                  align-items: flex-start;
+                  position: relative;
+                  font-size: 30px;
+                  line-height: 48px;
+                  font-weight: 600;
+
+                  .style-years-old {
+                    color: #009cff;
+                    position: relative;
+                    font-size: 24px;
+                    margin-left: 26px;
+                    line-height: 30px;
+                    background: #fff;
+                    border-radius: 10px;
+                    padding: 7px 15px;
+                    box-shadow: 0 2px 4px rgb(165 24 24 / 25%);
+                  }
+
+                  .style-years-old::after {
+                    content: " ";
+                    position: absolute;
+                    bottom: -13px;
+                    left: -4px;
+                    height: 27px;
+                    width: 80px;
+                    background: url(../popup-arrow-red.png) 0 100%/contain no-repeat;
+                  }
+                }
+              }
+            }
+
+            .css-content-intro {
+              animation-duration: 1000ms;
+              animation-timing-function: ease;
+              animation-delay: 400ms;
+              animation-name: animation-9e64fq;
+              animation-direction: normal;
+              animation-fill-mode: both;
+              animation-iteration-count: 1;
+
+              .style-content {
+                margin-top: 30px;
+                font-size: 20px;
+                line-height: 28px;
+                font-weight: 300;
+                width: 380px;
+              }
+            }
+
+            .css-button-mathClass {
+              animation-duration: 1000ms;
+              animation-timing-function: ease;
+              animation-delay: 500ms;
+              animation-name: animation-9e64fq;
+              animation-direction: normal;
+              animation-fill-mode: both;
+              animation-iteration-count: 1;
+
+              .style-button-container {
+                margin-top: 20px;
+                padding-left: 4px;
+                text-align: left;
+
+                .style-button {
+                  color: #009cff;
+                  background: #fff;
+                  letter-spacing: .1em;
+                  padding: 6px 17px;
+                  font-size: 18px;
+                  border-radius: 50px;
+                  border: none;
+                  line-height: 1.4;
+                  box-shadow: 0 2px 4px rgb(0 0 0 / 25%);
+                  cursor: pointer;
+                  outline: none;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -804,24 +939,36 @@
   }
 
   .container_introduction-three {
-    .style-text_container {
-      width: 1510px;
-      padding-top: 170px;
-      padding-left: 130px;
+    .style-container-one {
+      .style-text_container {
+        width: 1510px;
+        padding-top: 170px;
+        padding-left: 130px;
 
-      .style-content {
-        width: 438px;
+        .style-content {
+          width: 438px;
+        }
+
+        .style-preview {
+          right: 80px;
+        }
+      }
+    }
+
+    .style-container-two {
+      .style-bg {
+        width: 78%;
       }
 
-      .style-preview {
-        right: 80px;
+      .style-text-container {
+        padding-top: 180px;
+        padding-right: 220px;
+        width: 1400px;
+
+
       }
     }
   }
-
-
-
-
 }
 
 //1260px<页面宽度<1600px
